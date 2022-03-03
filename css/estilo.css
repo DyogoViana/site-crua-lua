@@ -1,0 +1,74 @@
+/* 
+    # Cores
+
+    - font = #2B2B2B
+    - background = #EAEAEA
+*/
+
+body {
+    font-family: 'Signika', sans-serif;
+    color: #2B2B2B;
+    background-color: #EAEAEA;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.nav-wrapper {
+    background-color: #EAEAEA;
+}
+
+header nav {
+    box-shadow: none;
+    background-color: #EAEAEA;
+}
+
+nav .brand-logo {
+    color: #2B2B2B;
+    font-size: 1.5rem;
+}
+
+nav li a {
+    color: #2B2B2B;
+}
+
+nav li a:hover {
+    color: #EAEAEA;
+    background-color: #2B2B2B;
+}
+
+main {
+    width: 80vw;
+}
+
+/* aside {
+    background-color: #EAEAEA;
+} */
+
+/* menu vertical */
+.vertical-menu {
+    height: 100vh;
+}
+
+.vertical-menu a i {
+    color: #EAEAEA;
+    align-items: center;
+}
+
+.vertical-menu a {
+    background-color: #EAEAEA;
+    color: #2B2B2B;
+    display: block;
+    padding: .5em 0 .5em 3em;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    color: #EAEAEA;
+    background-color: #2B2B2B;
+}
+
+.vertical-menu a.active {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2B2B2B;
+    /* background-color: tomato; */
+}
