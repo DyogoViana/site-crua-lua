@@ -1,0 +1,14 @@
+footer section:nth-child(1) {
+    flex: 1;
+    background-color: antiquewhite;
+}
+
+footer section:nth-child(2) {
+    flex: 8;
+    background-color: aqua;
+}
+
+footer section:nth-child(3) {
+    flex: 3;
+    background-color: burlywood;
+}
