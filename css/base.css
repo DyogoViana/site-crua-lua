@@ -1,0 +1,20 @@
+header {
+    flex: 1;
+    background-color: yellowgreen;
+}
+
+main {
+    flex: 8;
+    background-color: tomato;
+}
+
+footer {
+    flex: 3;
+    background-color: plum;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
