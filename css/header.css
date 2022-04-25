@@ -1,0 +1,25 @@
+.header_logo {
+    display: flex;
+    flex: 1;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu {
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_menu--link {
+    display: flex;
+    align-items: center;
+}

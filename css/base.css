@@ -1,6 +1,14 @@
+body {
+    min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fff;
+}
+
 header {
     flex: 1;
-    background-color: yellowgreen;
+    display: flex;
 }
 
 main {
@@ -11,10 +19,4 @@ main {
 footer {
     flex: 3;
     background-color: plum;
-}
-
-.container {
-	min-height: 100vh;
-	display: flex;
-    flex-direction: column;
 }
