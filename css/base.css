@@ -1,8 +1,16 @@
+/* 
+    # Paleta de cores:
+    - #232323
+    - #FF3D2C
+
+*/
+
 body {
     min-height: 100vh;
 	display: flex;
     flex-direction: column;
     font-family: 'Quicksand', sans-serif;
+    color: #232323;
     background-color: #fff;
 }
 
@@ -19,5 +27,13 @@ main {
 footer {
     flex: 3;
     display: flex;
-    background-color: plum;
+}
+
+a {
+    color: #232323;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF3D2C;
 }
