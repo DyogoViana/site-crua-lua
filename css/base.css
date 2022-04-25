@@ -20,12 +20,12 @@ header {
 }
 
 main {
-    flex: 8;
+    flex: 9;
     background-color: tomato;
 }
 
 footer {
-    flex: 3;
+    flex: 2;
     display: flex;
 }
 

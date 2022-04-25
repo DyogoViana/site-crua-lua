@@ -1,11 +1,11 @@
 footer section:nth-child(1) {
     flex: 1;
-    background-color: antiquewhite;
 }
 
 footer section:nth-child(2) {
     flex: 8;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
 }
 
 footer section:nth-child(4) {
@@ -13,4 +13,46 @@ footer section:nth-child(4) {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer_paginacao {
+    flex: 2;
+    display: flex;
+}
+
+.footer_paginacao div:nth-child(1) {
+    flex: 3;
+    display: flex;
+}
+
+.footer_paginacao div:nth-child(2) {
+    flex: 4;
+}
+
+.footer_paginacao div:nth-child(3) {
+    flex: 5;
+}
+
+.footer_paginacao pre {
+    padding-top: 2em;
+}
+
+.footer_paginacao div h2:nth-child(1) {
+    font-size: 4rem;
+    text-align: right;
+    font-weight: lighter;
+}
+
+.footer_paginacao div h2:nth-child(2) {
+    font-size: 4rem;
+    text-align: left;
+}
+
+.footer_navegacao {
+    flex: 1;
+    background-color: yellowgreen;
+}
+
+footer hr {
+    flex-direction: row;
 }
